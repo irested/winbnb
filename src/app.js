@@ -1,7 +1,8 @@
 import React from 'react';
+import { BrowseContainer } from './containers/browse';
 
 function App() {
-  return <h1>Hello</h1>;
+  return <BrowseContainer />;
 }
 
 export default App;

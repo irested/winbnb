@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card } from '../components';
 
-export function BrowseContainer() {
+export default function BrowseContainer() {
   return (
     <Card.Group>
       <Card>

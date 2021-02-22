@@ -38,15 +38,18 @@ export const Item = styled.div`
 export const Picture = styled.img`
   max-width: 100%;
   border-radius: 24px;
+  margin-bottom: 15px;
 `;
 
 export const GroupTitle = styled.h1`
   font-weight: bold;
   font-size: 18px;
   line-height: 29px;
+  margin-bottom: 24px;
 
   @media (min-width: 768px) {
     font-size: 24px;
+    margin-bottom: 32px;
   }
 `;
 
@@ -58,12 +61,13 @@ export const Title = styled.h2`
 
 export const Meta = styled.div`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 12px;
 `;
 
 export const Rating = styled.p`
   display: flex;
-  d-flex: row;
   img {
     width: 15px;
     height: 15px;

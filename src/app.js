@@ -1,8 +1,13 @@
 import React from 'react';
-import { BrowseContainer } from './containers/browse';
+import { HeaderContainer, BrowseContainer } from './containers';
 
 function App() {
-  return <BrowseContainer />;
+  return (
+    <>
+      <HeaderContainer />
+      <BrowseContainer />
+    </>
+  );
 }
 
 export default App;
